@@ -1,0 +1,321 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {"@id": "https://w3id.org/ro/crate/1.1"},
+      "about": {"@id": "./"},
+      "creator": {"@id": "https://orcid.org/0000-0001-6699-830X"}
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "KASCADE_HighEnergyData_runs_0877-7417_ROOT",
+      "description": "High-energy cosmic-ray shower reconstruction data from the KASCADE experiment. This dataset supports analyses with high energetic particles and corresponds to the NABOO data selection.",
+      "identifier": "https://doi.org/10.17616/R3TS4P",
+      "creator": {"@id": "#kascade-collaboration"},
+      "contributor": {"@id": "https://orcid.org/0000-0003-3854-4890"},
+      "publisher": {"@id": "#kcdc"},
+      "producer": {"@id": "#kascade-experiment"},
+      "version": "NABOO",
+      "datePublished": "2020-05-04",
+      "keywords": ["cosmic rays", "astroparticle physics"],
+      "contentSize": "236 MB",
+      "license": {"@id": "EULA.pdf"},
+      "variableMeasured": [
+        {"@id": "#grande-Age"},
+        {"@id": "#grande-Az"},
+        {"@id": "#grande-Nch"},
+        {"@id": "#grande-Nmu"},
+        {"@id": "#grande-Xc"},
+        {"@id": "#grande-Yc"},
+        {"@id": "#grande-Ze"},
+        {"@id": "#kascade-Age"},
+        {"@id": "#kascade-Az"},
+        {"@id": "#kascade-E"},
+        {"@id": "#kascade-Ne"},
+        {"@id": "#kascade-Nmu"},
+        {"@id": "#kascade-Xc"},
+        {"@id": "#kascade-Yc"},
+        {"@id": "#kascade-Ze"},
+        {"@id": "#gen-DateTime"},
+        {"@id": "#gen-Ev"},
+        {"@id": "#gen-Gt"},
+        {"@id": "#gen-Mt"},
+        {"@id": "#gen-P"},
+        {"@id": "#gen-R"},
+        {"@id": "#gen-T"},
+        {"@id": "#gen-UUID"}
+      ],
+      "hasPart": [
+        {"@id": "events.root"},
+        {"@id": "info.txt"},
+        {"@id": "EULA.pdf"}
+      ]
+    },
+    {
+      "@id": "events.root",
+      "@type": "File",
+      "encodingFormat": "https://root.cern/"
+    },
+    {
+      "@id": "info.txt",
+      "@type": "File",
+      "encodingFormat": "text/plain"
+    },
+    {
+      "@id": "EULA.pdf",
+      "@type": "File",
+      "name": "End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)",
+      "encodingFormat": "application/pdf"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6699-830X",
+      "@type": "Person",
+      "name": "Victoria Tokareva",
+      "affiliation": {"@id": "#kit-iap"}
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3854-4890",
+      "@type": "Person",
+      "name": "Jürgen Wochele",
+      "affiliation": {"@id": "#kit-iap"}
+    },
+    {
+      "@id": "#kascade-collaboration",
+      "@type": "Organization",
+      "name": "KASCADE-Grande Collaboration",
+      "url": "https://cr.iap.kit.edu/kascade/"
+    },
+    {
+      "@id": "#kascade-experiment",
+      "@type": "Organization",
+      "name": "KASCADE Experiment",
+      "url": "https://cr.iap.kit.edu/kascade/"
+    },
+    {
+      "@id": "#kcdc",
+      "@type": "Organization",
+      "name": "KASCADE Cosmic Ray Data Centre (KCDC)",
+      "identifier": "https://doi.org/10.17616/R3TS4P",
+      "url": "https://kcdc.iap.kit.edu"
+    },
+    {
+      "@id": "https://ror.org/04t3en479",
+      "@type": "Organization",
+      "name": "Karlsruhe Institute of Technology"
+    },
+    {
+      "@id": "#kit-iap",
+      "@type": "Organization",
+      "name": "Institute for Astroparticle Physics, Karlsruhe Institute of Technology",
+      "parentOrganization": {"@id": "https://ror.org/04t3en479"}
+    },
+    {
+      "@id": "#GRANDE",
+      "@type": "Instrument",
+      "name": "GRANDE air-shower detector"
+    },
+    {
+      "@id": "#KASCADE",
+      "@type": "Instrument",
+      "name": "KASCADE particle detector array"
+    },
+    {
+      "@id": "#Calorimeter",
+      "@type": "Instrument",
+      "name": "Hadronic calorimeter (KASCADE)"
+    },
+    {
+      "@id": "#LOPES",
+      "@type": "Instrument",
+      "name": "LOPES radio antenna array"
+    },
+    {
+      "@id": "#grande-Age",
+      "@type": "PropertyValue",
+      "name": "Age",
+      "description": "Shower age measured by the GRANDE detector",
+      "instrument": {"@id": "#GRANDE"}
+    },
+    {
+      "@id": "#grande-Az",
+      "@type": "PropertyValue",
+      "name": "Az",
+      "description": "Azimuth angle measured by the GRANDE detector",
+      "unitText": "degree",
+      "instrument": {"@id": "#GRANDE"}
+    },
+    {
+      "@id": "#grande-Nch",
+      "@type": "PropertyValue",
+      "name": "Nch",
+      "description": "Number of charged particles (log10), measured by the GRANDE detector",
+      "unitText": "log10(count)",
+      "instrument": {"@id": "#GRANDE"}
+    },
+    {
+      "@id": "#grande-Nmu",
+      "@type": "PropertyValue",
+      "name": "Nmu",
+      "description": "Number of muons (log10), measured by the GRANDE detector",
+      "unitText": "log10(count)",
+      "instrument": {"@id": "#GRANDE"}
+    },
+    {
+      "@id": "#grande-Xc",
+      "@type": "PropertyValue",
+      "name": "Xc",
+      "description": "Shower core position X measured by the GRANDE detector",
+      "unitText": "m",
+      "minValue": -91,
+      "maxValue": 91,
+      "instrument": {"@id": "#GRANDE"}
+    },
+    {
+      "@id": "#grande-Yc",
+      "@type": "PropertyValue",
+      "name": "Yc",
+      "description": "Shower core position Y measured by the GRANDE detector",
+      "unitText": "m",
+      "minValue": -93,
+      "maxValue": 93,
+      "instrument": {"@id": "#GRANDE"}
+    },
+    {
+      "@id": "#grande-Ze",
+      "@type": "PropertyValue",
+      "name": "Ze",
+      "description": "Zenith angle measured by the GRANDE detector",
+      "unitText": "degree",
+      "minValue": 0,
+      "maxValue": 42,
+      "instrument": {"@id": "#GRANDE"}
+    },
+    {
+      "@id": "#kascade-Age",
+      "@type": "PropertyValue",
+      "name": "Age",
+      "description": "Shower age measured by the KASCADE detector",
+      "instrument": {"@id": "#KASCADE"}
+    },
+    {
+      "@id": "#kascade-Az",
+      "@type": "PropertyValue",
+      "name": "Az",
+      "description": "Azimuth angle measured by the KASCADE detector",
+      "unitText": "degree",
+      "instrument": {"@id": "#KASCADE"}
+    },
+    {
+      "@id": "#kascade-E",
+      "@type": "PropertyValue",
+      "name": "E",
+      "description": "Shower primary energy (log10 eV) measured by the KASCADE detector",
+      "unitText": "log10(eV)",
+      "minValue": 15.7,
+      "maxValue": 19.0,
+      "instrument": {"@id": "#KASCADE"}
+    },
+    {
+      "@id": "#kascade-Ne",
+      "@type": "PropertyValue",
+      "name": "Ne",
+      "description": "Number of electrons (log10) measured by the KASCADE detector",
+      "unitText": "log10(count)",
+      "instrument": {"@id": "#KASCADE"}
+    },
+    {
+      "@id": "#kascade-Nmu",
+      "@type": "PropertyValue",
+      "name": "Nmu",
+      "description": "Number of muons (log10) measured by the KASCADE detector",
+      "unitText": "log10(count)",
+      "instrument": {"@id": "#KASCADE"}
+    },
+    {
+      "@id": "#kascade-Xc",
+      "@type": "PropertyValue",
+      "name": "Xc",
+      "description": "Shower core position X measured by the KASCADE detector",
+      "unitText": "m",
+      "minValue": -91,
+      "maxValue": 91,
+      "instrument": {"@id": "#KASCADE"}
+    },
+    {
+      "@id": "#kascade-Yc",
+      "@type": "PropertyValue",
+      "name": "Yc",
+      "description": "Shower core position Y measured by the KASCADE detector",
+      "unitText": "m",
+      "minValue": -93,
+      "maxValue": 93,
+      "instrument": {"@id": "#KASCADE"}
+    },
+    {
+      "@id": "#kascade-Ze",
+      "@type": "PropertyValue",
+      "name": "Ze",
+      "description": "Zenith angle measured by the KASCADE detector",
+      "unitText": "degree",
+      "minValue": 0,
+      "maxValue": 42,
+      "instrument": {"@id": "#KASCADE"}
+    },
+    {
+      "@id": "#gen-DateTime",
+      "@type": "PropertyValue",
+      "name": "DateTime",
+      "description": "Event timestamp",
+      "unitText": "ISO8601"
+    },
+    {
+      "@id": "#gen-Ev",
+      "@type": "PropertyValue",
+      "name": "Ev",
+      "description": "Event number"
+    },
+    {
+      "@id": "#gen-Gt",
+      "@type": "PropertyValue",
+      "name": "Gt",
+      "description": "Global time of event",
+      "unitText": "s"
+    },
+    {
+      "@id": "#gen-Mt",
+      "@type": "PropertyValue",
+      "name": "Mt",
+      "description": "MT counter",
+      "unitText": "ns"
+    },
+    {
+      "@id": "#gen-P",
+      "@type": "PropertyValue",
+      "name": "P",
+      "description": "Air pressure",
+      "unitText": "hPa"
+    },
+    {
+      "@id": "#gen-R",
+      "@type": "PropertyValue",
+      "name": "R",
+      "description": "Run number"
+    },
+    {
+      "@id": "#gen-T",
+      "@type": "PropertyValue",
+      "name": "T",
+      "description": "Air temperature",
+      "unitText": "Celsius"
+    },
+    {
+      "@id": "#gen-UUID",
+      "@type": "PropertyValue",
+      "name": "UUID",
+      "description": "Event UUID"
+    }
+  ]
+}

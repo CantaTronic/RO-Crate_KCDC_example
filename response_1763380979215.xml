@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+  <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:dc_kcdc_ext="urn:kit:iap:kcdc:extension-schema:wrapper" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:kcdc_preselects="urn:kit:iap:kcdc:extension-schema:preselects">
+    <responseDate>2025-11-17T12:02:58Z</responseDate>
+    <request verb="GetRecord" identifier="KASCADE_HighEnergyData_runs_0877-7417_ROOT" metadataPrefix="oai_dc">https://8b6a156d-d591-4f81-9b15-eabc675012bb.ka.bw-cloud-instance.org/oai</request>
+    <GetRecord>
+      <record>
+        <header>
+          <identifier>KASCADE_HighEnergyData_runs_0877-7417_ROOT</identifier>
+          <datestamp>2025-11-17</datestamp>
+        </header>
+        <metadata>
+          <dc_kcdc_ext:dc_kcdc>
+            <dc:title>KASCADE_HighEnergyData_runs_0877-7417_ROOT</dc:title>
+            <dc:creator>Institute for Astroparticle Physics, Karlsruhe Institute of Technology</dc:creator>
+            <dc:publisher>KASCADE Cosmic Ray Data Centre (KCDC)</dc:publisher>
+            <dc:date>2020-05-04</dc:date>
+            <dc:type>Reconstructed events</dc:type>
+            <dc:subject>Cosmic rays &amp; astroparticles</dc:subject>
+            <dc:identifier>https://doi.org/10.17616/R3TS4P</dc:identifier>
+            <dc:identifier>https://kcdc.iap.kit.edu/Preselections/KASCADE_HighEnergyData_runs_0877-7417_ROOT.zip</dc:identifier>
+            <dc:language>en</dc:language>
+            <dc:format>Size: 236 MB</dc:format>
+            <dc:format>Format: ROOT</dc:format>
+            <dc:contributor>СontributorName: KASCADE-Grande Collaboration</dc:contributor>
+            <dc:contributor>Affiliation: Karlsruhe Institute of Technology (https://ror.org/04t3en479)</dc:contributor>
+            <dc:description>Abstract: Analyses with high energetic particles</dc:description>
+            <dc:description>Table of Contents: combined.txt / 140 kB
+general.txt / 163 kB
+lopes.txt / 343 kB
+row_mapping.txt / 18 B</dc:description>
+            <dc:rights>End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)</dc:rights>
+            <dc:rights>https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf</dc:rights>
+            <kcdc_preselects:KASCADE>
+              <kcdc_preselects:E>
+                <kcdc_preselects:min>10^15.7</kcdc_preselects:min>
+                <kcdc_preselects:max>10^19 eV</kcdc_preselects:max>
+              </kcdc_preselects:E>
+              <kcdc_preselects:Xc>
+                <kcdc_preselects:min>-91</kcdc_preselects:min>
+                <kcdc_preselects:max>+91 m</kcdc_preselects:max>
+              </kcdc_preselects:Xc>
+              <kcdc_preselects:Yc>
+                <kcdc_preselects:min>-91</kcdc_preselects:min>
+                <kcdc_preselects:max>+91 m</kcdc_preselects:max>
+              </kcdc_preselects:Yc>
+              <kcdc_preselects:Ze>
+                <kcdc_preselects:min>0°</kcdc_preselects:min>
+                <kcdc_preselects:max>60°</kcdc_preselects:max>
+              </kcdc_preselects:Ze>
+              <kcdc_preselects:Az>
+                <kcdc_preselects:min>0°</kcdc_preselects:min>
+                <kcdc_preselects:max>360°</kcdc_preselects:max>
+              </kcdc_preselects:Az>
+              <kcdc_preselects:Ne>
+                <kcdc_preselects:min>100</kcdc_preselects:min>
+                <kcdc_preselects:max>500,000,000</kcdc_preselects:max>
+              </kcdc_preselects:Ne>
+              <kcdc_preselects:Nmu>
+                <kcdc_preselects:min>100</kcdc_preselects:min>
+                <kcdc_preselects:max>50,000,000</kcdc_preselects:max>
+              </kcdc_preselects:Nmu>
+              <kcdc_preselects:Age>
+                <kcdc_preselects:min>0.1</kcdc_preselects:min>
+                <kcdc_preselects:max>1.48</kcdc_preselects:max>
+              </kcdc_preselects:Age>
+            </kcdc_preselects:KASCADE>
+            <kcdc_preselects:CALORIMETER>
+              <kcdc_preselects:Nhad>
+                <kcdc_preselects:min>0</kcdc_preselects:min>
+                <kcdc_preselects:max>511</kcdc_preselects:max>
+              </kcdc_preselects:Nhad>
+              <kcdc_preselects:Ehad>
+                <kcdc_preselects:min>0, 1010</kcdc_preselects:min>
+                <kcdc_preselects:max>1016 eV</kcdc_preselects:max>
+              </kcdc_preselects:Ehad>
+            </kcdc_preselects:CALORIMETER>
+            <kcdc_preselects:GRANDE>
+              <kcdc_preselects:Xc>
+                <kcdc_preselects:min>-500</kcdc_preselects:min>
+                <kcdc_preselects:max>+100 m</kcdc_preselects:max>
+              </kcdc_preselects:Xc>
+              <kcdc_preselects:Yc>
+                <kcdc_preselects:min>-600</kcdc_preselects:min>
+                <kcdc_preselects:max>+ 100 m</kcdc_preselects:max>
+              </kcdc_preselects:Yc>
+              <kcdc_preselects:Ze>
+                <kcdc_preselects:min>0°</kcdc_preselects:min>
+                <kcdc_preselects:max>40°</kcdc_preselects:max>
+              </kcdc_preselects:Ze>
+              <kcdc_preselects:Az>
+                <kcdc_preselects:min>0°</kcdc_preselects:min>
+                <kcdc_preselects:max>360°</kcdc_preselects:max>
+              </kcdc_preselects:Az>
+              <kcdc_preselects:Nch>
+                <kcdc_preselects:min>11111</kcdc_preselects:min>
+                <kcdc_preselects:max>1,000,000,000</kcdc_preselects:max>
+              </kcdc_preselects:Nch>
+              <kcdc_preselects:Nmu>
+                <kcdc_preselects:min>1500</kcdc_preselects:min>
+                <kcdc_preselects:max>100,000,000</kcdc_preselects:max>
+              </kcdc_preselects:Nmu>
+              <kcdc_preselects:Age>
+                <kcdc_preselects:min>-0.385</kcdc_preselects:min>
+                <kcdc_preselects:max>+1.488</kcdc_preselects:max>
+              </kcdc_preselects:Age>
+            </kcdc_preselects:GRANDE>
+            <kcdc_preselects:GENERAL>
+              <kcdc_preselects:T>
+                <kcdc_preselects:min>-20 °</kcdc_preselects:min>
+                <kcdc_preselects:max>+50°</kcdc_preselects:max>
+              </kcdc_preselects:T>
+              <kcdc_preselects:P>
+                <kcdc_preselects:min>960</kcdc_preselects:min>
+                <kcdc_preselects:max>1030 hPa</kcdc_preselects:max>
+              </kcdc_preselects:P>
+              <kcdc_preselects:Gt>
+                <kcdc_preselects:min>894,638,100</kcdc_preselects:min>
+                <kcdc_preselects:max>1,358,239,243</kcdc_preselects:max>
+              </kcdc_preselects:Gt>
+              <kcdc_preselects:Mt>
+                <kcdc_preselects:min>0</kcdc_preselects:min>
+                <kcdc_preselects:max>999,999,999</kcdc_preselects:max>
+              </kcdc_preselects:Mt>
+              <kcdc_preselects:DateTime>
+                <kcdc_preselects:min>08-05-98</kcdc_preselects:min>
+                <kcdc_preselects:max>15-01-13</kcdc_preselects:max>
+              </kcdc_preselects:DateTime>
+              <kcdc_preselects:R>
+                <kcdc_preselects:min>877</kcdc_preselects:min>
+                <kcdc_preselects:max>7417</kcdc_preselects:max>
+              </kcdc_preselects:R>
+              <kcdc_preselects:Ev>
+                <kcdc_preselects:min>1</kcdc_preselects:min>
+                <kcdc_preselects:max>4,100,000</kcdc_preselects:max>
+              </kcdc_preselects:Ev>
+            </kcdc_preselects:GENERAL>
+            <kcdc_preselects:LOPES>
+              <kcdc_preselects:EfieldAbyMax>
+                <kcdc_preselects:min>0.0</kcdc_preselects:min>
+                <kcdc_preselects:max>50000.0</kcdc_preselects:max>
+              </kcdc_preselects:EfieldAbyMax>
+              <kcdc_preselects:AzL_EW_NS>
+                <kcdc_preselects:min>0.0</kcdc_preselects:min>
+                <kcdc_preselects:max>360.0°</kcdc_preselects:max>
+              </kcdc_preselects:AzL_EW_NS>
+              <kcdc_preselects:ElL_EW_NS>
+                <kcdc_preselects:min>40</kcdc_preselects:min>
+                <kcdc_preselects:max>90°</kcdc_preselects:max>
+              </kcdc_preselects:ElL_EW_NS>
+              <kcdc_preselects:CC_Height_EW_NS>
+                <kcdc_preselects:min>0</kcdc_preselects:min>
+                <kcdc_preselects:max>20.0 μV/m/MHz</kcdc_preselects:max>
+              </kcdc_preselects:CC_Height_EW_NS>
+              <kcdc_preselects:ConeAngle_EW_NS>
+                <kcdc_preselects:min>0.0</kcdc_preselects:min>
+                <kcdc_preselects:max>0.1 rad</kcdc_preselects:max>
+              </kcdc_preselects:ConeAngle_EW_NS>
+              <kcdc_preselects:NCCBeanAnt_EW_NS>
+                <kcdc_preselects:min>0</kcdc_preselects:min>
+                <kcdc_preselects:max>30</kcdc_preselects:max>
+              </kcdc_preselects:NCCBeanAnt_EW_NS>
+              <kcdc_preselects:Eta_EW_NS>
+                <kcdc_preselects:min>-0.04</kcdc_preselects:min>
+                <kcdc_preselects:max>0.11 1/m</kcdc_preselects:max>
+              </kcdc_preselects:Eta_EW_NS>
+              <kcdc_preselects:Eps_EW_NS>
+                <kcdc_preselects:min>0.0</kcdc_preselects:min>
+                <kcdc_preselects:max>100.0 μV/m/MHz</kcdc_preselects:max>
+              </kcdc_preselects:Eps_EW_NS>
+              <kcdc_preselects:RMS_CCBeam_EW_NS>
+                <kcdc_preselects:min>0.0</kcdc_preselects:min>
+                <kcdc_preselects:max>20.0 μV/m/MHz</kcdc_preselects:max>
+              </kcdc_preselects:RMS_CCBeam_EW_NS>
+              <kcdc_preselects:Geomag_Angle>
+                <kcdc_preselects:min>0</kcdc_preselects:min>
+                <kcdc_preselects:max>120 °</kcdc_preselects:max>
+              </kcdc_preselects:Geomag_Angle>
+              <kcdc_preselects:Geomag_AngleG>
+                <kcdc_preselects:min>0</kcdc_preselects:min>
+                <kcdc_preselects:max>120.0°</kcdc_preselects:max>
+              </kcdc_preselects:Geomag_AngleG>
+              <kcdc_preselects:LopesCompID>
+                <kcdc_preselects:min>0 to 1</kcdc_preselects:min>
+                <kcdc_preselects:max>0 to 1</kcdc_preselects:max>
+              </kcdc_preselects:LopesCompID>
+            </kcdc_preselects:LOPES>
+          </dc_kcdc_ext:dc_kcdc>
+        </metadata>
+      </record>
+    </GetRecord>
+  </OAI-PMH>
