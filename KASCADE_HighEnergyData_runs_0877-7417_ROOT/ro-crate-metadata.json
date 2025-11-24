@@ -22,7 +22,18 @@
       "datePublished": "2020-05-04",
       "keywords": ["cosmic rays", "astroparticle physics"],
       "contentSize": "236 MB",
-      "license": {"@id": "EULA.pdf"},
+      "encodingFormat": "application/zip",
+      "license": {
+        "@id": "EULA.pdf",
+        "contentUrl": "https://kcdc.iap.kit.edu/lawnorder/",
+        "copyrightHolder": {
+  	  "@id": "https://ror.org/04t3en479" 
+	  }
+        },
+      "distribution": {
+   	 "@type": "DataDownload",
+   	 "contentUrl": "https://kcdc.iap.kit.edu/Preselections/KASCADE_HighEnergyData_runs_0877-7417_ROOT.zip"
+ 	 },
       "variableMeasured": [
         {"@id": "#grande-Age"},
         {"@id": "#grande-Az"},
@@ -57,18 +68,21 @@
     {
       "@id": "events.root",
       "@type": "File",
-      "encodingFormat": "https://root.cern/"
+      "encodingFormat": "https://root.cern/",
+      "contentSize": "248 MB"
     },
     {
       "@id": "info.txt",
       "@type": "File",
-      "encodingFormat": "text/plain"
+      "encodingFormat": "text/plain",
+      "contentSize": "3,1 kB"
     },
     {
       "@id": "EULA.pdf",
       "@type": "File",
       "name": "End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)",
-      "encodingFormat": "application/pdf"
+      "encodingFormat": "application/pdf",
+      "contentSize": "26 kB"
     },
     {
       "@id": "https://orcid.org/0000-0001-6699-830X",
